@@ -246,6 +246,14 @@
 
     
   </footer>
+
+  <script>
+  // AJAX footer generation
+    $(function(){
+      $(".page-footer").load("nav.html");
+    });
+  </script>
+
   <!--/.Footer-->
 
   <!-- SCRIPTS -->
@@ -263,11 +271,6 @@
 
     // Animation init
     new WOW().init();
-
-    // AJAX footer generation
-    $(function(){
-      $(".page-footer").load("nav.html");
-    });
 
   </script>
 
