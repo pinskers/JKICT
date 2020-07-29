@@ -242,7 +242,7 @@
   <!--/Main content-->
 
   <!--Footer-->
-  <footer class="page-footer text-center text-md-left stylish-color-dark pt-0">
+  <footer class="page-footer text-center text-md-left stylish-color-dark pt-0" id="ajax-footer">
 
     
   </footer>
@@ -250,7 +250,7 @@
   <script>
   // AJAX footer generation
     $(function(){
-      $(".page-footer").load("footer.html");
+      $("#ajax-footer").load("footer.html");
     });
   </script>
 
