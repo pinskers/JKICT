@@ -1,0 +1,352 @@
+html, body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #F7F7F7;
+}
+
+.container-fluid {
+    padding-left: 50px;
+}
+
+/* Nav */
+/* Static Navigation */
+
+.medical-lp .navbar {
+    background-color: white !important;
+    border-top-width: 15px !important;
+    border-top-style: solid !important;
+    border-top-color: #3785C4 !important;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12) !important;
+}
+
+.medical-lp .navbar > .navbar-brand {
+    margin-left: 30px !important;
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+}
+
+.medical-lp .navbar:not(.top-nav-collapse) > .navbar-brand a{
+    color: black !important;
+}
+
+.navbar-brand {
+    font-size: 14px;
+}
+
+.navbar-toggler-icon {
+    vertical-align:  flex-end;
+}
+
+/* Card Styles */
+
+.booking-card {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.booking-card > .card-body {
+    height: 350px;
+}
+
+.card-body > p.mb-2 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.card-img-top {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.card-btn {
+    width: 80%;
+    position: absolute;
+    bottom: 0;
+    border-radius: 5px;
+}
+
+/* Footer */
+
+.footer-links {
+    list-style-type: none;
+    padding: 0px;
+    font-size: 12px;
+}
+
+footer.page-footer {
+    background-color: #333333 !important;
+}
+
+footer.page-footer a, footer.page-footer p {
+    color: #6D7278;
+    font-size: 12px;
+    line-height: 1.6 !important;
+}
+
+.footer-copyright {
+    background-color: transparent !important;
+}
+
+img.footer-logo {
+    opacity: 0.1;
+    margin-top: 20px;
+    margin-right: 75px;
+    width: 35%;
+}
+
+.page-footer > .container > .row {
+    padding-top: 20px;
+}
+
+/* Headers */
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.h1-responsive {
+    color: #3785C4;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h3.registration {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 14px;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+/* Splash */
+
+.splash {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-bottom-color: #F7AB00;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+}
+
+.splash > .black-text {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+
+/* Breadcrumbs */
+.breadcrumb {
+    margin-top: 100px;
+    font-size: 14px;
+    background-color: transparent;
+}
+
+.breadcrumb > span {
+    color: #c5c5c5;
+
+}
+
+.breadcrumb-bodypages {
+    position: relative;
+    margin-top: -200px !important;
+}
+
+.light-font a {
+    color: white;
+}
+
+.light-font {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* Accordion */
+.accordion {
+    background-color: white;
+    position: absolute;
+    width: 350px;
+    padding-bottom: 35px;
+    padding-left: 30px;
+}
+
+.accordion > h4 {
+    margin-left: 15px;
+    padding-top: 45px;
+}
+
+.card-header > a > h5 {
+    font-size: 16px;
+    color: #3785C4;
+    margin-left: -8px;
+}
+
+.fas {
+    color: #979797;
+}
+
+.accordion > .card-body {
+    margin-top: -20px;
+    height: auto;
+}
+
+.card-body > ul > li {
+    list-style-type: none;
+    margin-left: -44px;
+}
+
+.card-body > ul {
+    margin-top: -15px;
+    margin-bottom: 3px;
+}
+
+.card-body > ul > li > a {
+    color: black;
+}
+
+.card-last {
+    border-bottom: none !important;
+}
+
+/* Product */
+
+.product-top {
+    background-color: white;
+    margin-top: -25px;
+    padding-top: 25px;
+    padding-bottom: 75px;
+}
+
+.product-intro {
+    margin-top: 25px;
+}
+
+.features-extended {
+    padding-left: 50px;
+}
+
+ul.features {
+    list-style-type: square;
+    margin-left: -20px;
+}
+
+#carousel-product {
+    width: 80%;
+}
+
+.carousel-indicators {
+    position: absolute;
+    margin-bottom: -40px;
+}
+
+.carousel-indicators li {
+    background-color: #c4c4c4;
+}
+
+.product-btn {
+    width: 80%;
+    border-radius: 5px;
+}
+
+.classic-tabs .nav a {
+    color: black !important;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px !important;
+}
+
+.classic-tabs .nav {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    background-color: transparent !important;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #b6b6b6;
+    margin-left: -25px;
+}
+
+.classic-tabs .nav > .nav-item > a.nav-link {
+    padding-bottom: 15px;
+    padding-top: 25px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.classic-tabs .nav li a.active {
+    border-color: #F7AB00 !important;
+}
+
+.tab-content {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.dimensions {
+    font-size: 14px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #d6d6d6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    background-color: #F7F7F7;
+}
+
+.dimensions:hover {
+    background-color: #d6d6d6;
+}
+
+.table-striped tbody tr:nth-of-type(odd){
+    background-color: #E2F2FF;
+}
+
+.table-striped tbody tr:nth-of-type(even){
+    background-color: white;
+}
+
+tr > th {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 40%;
+}
+
+tr > td {
+    font-weight: bolder;
+}
+
+ul.features-list > li { 
+    list-style-image: url(../img/svg/bullet_check.svg);
+    font-weight: bolder;
+    margin-bottom: 5px; 
+} 
+
+
+/* Paragraph Styles */
+
+p.product-descrip {
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+
+p#registration {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.row > .col-md-7 > p.product-descrip {
+    padding-right: 50px;
+}

@@ -1,0 +1,65 @@
+/* Static Navigation */
+
+.medical-lp .navbar {
+    background-color: white !important;
+    border-top-width: 15px !important;
+    border-top-style: solid !important;
+    border-top-color: #3785C4 !important;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12) !important;
+}
+
+.medical-lp .navbar > .navbar-brand {
+    background-image: url(../img/svg/JKICT.svg) !important;
+    background-repeat: no-repeat !important;
+    margin-left: 30px !important;
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+}
+
+.medical-lp .navbar:not(.top-nav-collapse) > .navbar-brand a{
+    color: black !important;
+}
+
+/* Splash */
+
+.splash {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-bottom-color: #F7AB00;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    position: absolute;
+    margin-top: 5%;
+}
+
+.splash > .black-text {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+
+/* Product Cards */
+
+.booking-card > .card-body {
+    height: 250px;
+}
+
+/* Misc */
+
+.cta {
+    background-color: white;
+    border-style: solid;
+    border-color: #F7AB00;
+    border-width: 2px;
+    height: 100%;
+    padding-top: 25px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+.mt-n5 {
+    margin-top: -125px !important;
+}
+
+.light-blue.darken-2 {
+    background-color: #3785C4 !important;
+}
