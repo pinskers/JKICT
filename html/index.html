@@ -8,6 +8,10 @@
   <title>JKICT, Inc.</title>
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <script
+  src="http://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
@@ -242,21 +246,19 @@
   <!--/Main content-->
 
   <!--Footer-->
-  <div id="wrapper">
+  <div class="wrapper">
   </div>
 
   <script>
   // AJAX footer generation
     $(function(){
-      $("#wrapper").load("Build/html/footer.html");
+      $(".wrapper").load("navs/footer.html");
     });
   </script>
 
   <!--/.Footer-->
 
   <!-- SCRIPTS -->
-  <!-- JQuery -->
-  <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
   <!-- Bootstrap tooltips -->
   <script type="text/javascript" src="../js/popper.min.js"></script>
   <!-- Bootstrap core JavaScript -->
