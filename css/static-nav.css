@@ -20,27 +20,14 @@
     color: black !important;
 }
 
-/* Splash */
-
-.splash {
-    background-color: rgba(255, 255, 255, 0.7);
-    border-bottom-color: #F7AB00;
-    border-bottom-style: solid;
-    border-bottom-width: 5px;
-    position: absolute;
-    margin-top: 5%;
-}
-
-.splash > .black-text {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 30px;
-}
-
 /* Product Cards */
 
+.booking-card {
+    height: 450px;
+}
+
 .booking-card > .card-body {
-    height: 250px;
+    height: auto;
 }
 
 /* Misc */

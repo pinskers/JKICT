@@ -34,6 +34,12 @@ body {
 
 .medical-lp .navbar:not(.top-nav-collapse) > .navbar-brand a{
     color: black !important;
+    -webkit-transition: color 1s !important;
+    transition: color 1s !important;
+}
+
+.medical-lp .navbar:not(.top-nav-collapse) > .navbar-brand a:hover{
+    color: #F7AB00 !important;
 }
 
 .navbar-brand {
@@ -57,6 +63,14 @@ body {
 
 .card-body > p.mb-2 {
     font-family: 'Roboto Condensed', sans-serif;
+}
+
+.card-image {
+    height: 175px !important;
+}
+
+.card-image > img {
+    width: 100%;
 }
 
 .card-img-top {
@@ -152,6 +166,10 @@ h6 {
     background-color: transparent;
 }
 
+.breadcrumb a {
+    color: #3785C4;
+}
+
 .breadcrumb > span {
     color: #c5c5c5;
 
@@ -177,6 +195,7 @@ h6 {
     width: 350px;
     padding-bottom: 35px;
     padding-left: 30px;
+    margin-right: 30px;
 }
 
 .accordion > h4 {
@@ -209,12 +228,18 @@ h6 {
     margin-bottom: 3px;
 }
 
-.card-body > ul > li > a {
-    color: black;
-}
-
 .card-last {
     border-bottom: none !important;
+}
+
+.card-body > ul > li > a {
+    color: black;
+    -webkit-transition: color 1s;
+    transition: color 1s;
+}
+
+.card-body > ul > li a:hover {
+    color: #3785C4;
 }
 
 /* Product */
@@ -333,6 +358,18 @@ ul.features-list > li {
     margin-bottom: 5px; 
 } 
 
+/* Streak */
+.btn-viewall {
+    box-shadow: none;
+    font-size: 20px !important;
+    -webkit-transition: color 1s !important;
+    transition: color 1s !important;
+}
+
+.btn-viewall:hover {
+    box-shadow: none;
+    color: #F7AB00;
+}
 
 /* Paragraph Styles */
 
@@ -349,4 +386,97 @@ p#registration {
 
 .row > .col-md-7 > p.product-descrip {
     padding-right: 50px;
+}
+
+/* Misc. */
+.hide-this-md {
+    display: none;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1024px) {
+
+    img.footer-logo {
+        width: 33%;
+    }
+
+    .hide-this {
+        display: none;
+    }
+
+    .products {
+        margin-left: 175px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .hide-this {
+        display: none;
+    }
+
+    .splash {
+        padding-top: 50px;
+    }
+
+    img.footer-logo {
+        width: 100%;
+        margin-left: 30px;
+    }
+
+    #carousel-product {
+        width: 100%;
+    }
+
+    .features-section {
+        margin-top: 55px;
+    }
+
+    .product-top {
+        margin-left: -25px;
+    }
+
+    ul#myClassicTab {
+        padding-left: 20px;
+    }
+
+    .hide-this-md {
+        display: block;
+    }
+
+    .about-list {
+        margin-left: 0px;
+    }
+
+    .products {
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+
+    .features-extended {
+        padding-left: 13px;
+    }
+
+    .hide-this {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+    .hide-this {
+        display: none;
+    }
+
+    img.footer-logo {
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    .features-extended {
+        padding-left: 15px;
+    }
 }
